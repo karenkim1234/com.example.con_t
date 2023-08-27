@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoinActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="155dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cont" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="아이디"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView" />
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="영문+숫자 조합 6자리 이상"
+
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/id"
+        tools:layout_editor_absoluteX="36dp" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:text="이메일"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/id" />
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:hint="이메일을 입력해주세요"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email" />
+
+    <EditText
+        android:id="@+id/passwordtext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password"
+        android:layout_marginStart="40dp"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:hint="영문+숫자 조합 8자리 이상"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <TextView
+        android:id="@+id/password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+    <Button
+    android:id="@+id/join_btn"
+    app:layout_constraintTop_toBottomOf="@id/passwordtext"
+    android:backgroundTint="@color/purple_200"
+    android:textColor="@color/white"
+    android:layout_width="320dp"
+    android:layout_height="50dp"
+    android:layout_marginStart="40dp"
+    android:text="가입하기"
+    android:layout_marginTop="60dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginRight="40dp"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

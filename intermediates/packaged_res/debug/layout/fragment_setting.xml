@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment">
+
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:text="마이페이지"
+        android:fontFamily="@font/nanum3"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/nanum2"
+        android:text="아이디"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="99dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/white"
+        android:text="로그아웃"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/event_requested"
+        android:layout_width="390dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="384dp"
+        android:background="@drawable/roundbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/event_created"
+        android:layout_width="390dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="443dp"
+        android:background="@drawable/roundbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
+        android:text="다가오는 재능 기부"
+        android:fontFamily="@font/nanum2"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="400dp"
+        android:text="내가 신청한 기부 이벤트"
+        android:fontFamily="@font/nanum2"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="460dp"
+        android:text="내가 생성한 기부이벤트"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/nanum2"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="4dp"
+        android:background="#808080"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_setting"
+        android:layout_width="358dp"
+        android:layout_height="168dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

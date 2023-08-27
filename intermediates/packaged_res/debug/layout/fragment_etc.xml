@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EtcFragment">
+
+    <TextView
+        android:id="@+id/우리동네지식기부"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="362dp"
+        android:text="우리 동네 재능 기부"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="122dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cont" />
+
+    <View
+        android:id="@+id/search_button"
+        android:layout_width="327dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/textbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="41dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="324dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="89dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="검색"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/지식기부2"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="214dp"
+        android:background="@drawable/roundbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/지식기부1"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="214dp"
+        android:background="@drawable/roundbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="170dp"
+        android:text="다양한 재능 기부"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/우동지1"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/roundbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/우동지2"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/roundbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="51dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

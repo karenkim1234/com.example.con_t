@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eventpage">
+
+
+    <ImageView
+        android:id="@+id/imagebox"
+        android:layout_width="382dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="382dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="248dp"
+        android:background="@drawable/roundbox"
+        android:backgroundTint="#e2bbf1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/event_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="100dp"
+        android:text="벽화 채색"
+        android:fontFamily="@font/nanum2"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="267dp"
+        android:text="채팅방"
+        android:fontFamily="@font/nanum2"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="62dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#e2bbf1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="250dp"
+        android:src="@android:drawable/stat_notify_chat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:id="@+id/place_info"
+        android:layout_width="376dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="410dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/roundbox"/>
+    <TextView
+        android:id="@+id/place_text"
+        app:layout_constraintStart_toStartOf="@id/place_info"
+        app:layout_constraintTop_toTopOf="@id/place_info"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="장소"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="441dp" />
+    <View
+        android:id="@+id/time_info"
+        android:layout_width="376dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="480dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/roundbox"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="320dp"
+        android:text="소개"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/roundbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/remaintime"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D-00"
+        android:textSize="16dp"
+        android:fontFamily="@font/nanum4"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/info1"
+        android:layout_width="377dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/nanum2"
+        android:text=" "
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info" />
+
+    <TextView
+        android:id="@+id/event_period"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/event_title"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2022년 6월 26일 ~ 12월 1일"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <View
+        android:id="@+id/joinbtn"
+        android:layout_width="385dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="730dp"
+        android:background="@drawable/roundbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/신청하기박스"
+        android:layout_width="365dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="740dp"
+        android:background="@drawable/roundbox"
+        android:backgroundTint="#e2bbf1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/참여하기"
+        android:layout_width="113dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="748dp"
+        android:text="참여하기"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

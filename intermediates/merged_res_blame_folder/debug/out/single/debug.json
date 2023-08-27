@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/font_nanum1.ttf.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/font/nanum1.ttf"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_recycleradapter.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/recycleradapter.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_mainmenu_home.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_mainmenu_home.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_mainmenu_plus.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_mainmenu_plus.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_back.png.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/back.png"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_menu_item_color.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/menu_item_color.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_setting.png.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/setting.png"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_settingcreate.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_settingcreate.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_setting.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_art.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_art.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_searchbutton.png.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/searchbutton.png"
+    },
+    {
+        "merged": "com.example.con_t.app-merged_res-36:/layout_fragment_setting.xml.flat",
+        "source": "com.example.con_t.app-main-38:/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_activity_test.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/activity_test.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable-png_etc1.png.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable-png/etc1.png"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_cont.png.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/cont.png"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_eventpage.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_eventpage.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_user.png.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/user.png"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_textbox.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/textbox.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_plus.png.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/plus.png"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_setting_request.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_setting_request.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_gongbu.png.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/gongbu.png"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/font_nanum4.ttf.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/font/nanum4.ttf"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_activity_main_menu.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/activity_main_menu.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_oval_style.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/oval_style.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_search.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_recyleradapter_setting.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/recyleradapter_setting.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_music.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_music.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_mainmenu_setting.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_mainmenu_setting.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_mainpage.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_mainpage.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/font_font.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/font/font.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/font_nanum3.ttf.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/font/nanum3.ttf"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_roundbox.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/roundbox.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_study.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_study.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_mainpage.png.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/mainpage.png"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_mojip.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_mojip.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/font_nanum2.ttf.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/font/nanum2.ttf"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_chat.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "com.example.con_t.app-merged_res-36:/layout_activity_join.xml.flat",
+        "source": "com.example.con_t.app-main-38:/layout/activity_join.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/menu_main_menu_bottom.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/menu/main_menu_bottom.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_etc.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_etc.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_recycleradapter_search.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/recycleradapter_search.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable_search.png.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable/search.png"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/drawable-v24_etc.png.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/drawable-v24/etc.png"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_activity_join.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/activity_join.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_activity_signup.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_recycleradapter2.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/recycleradapter2.xml"
+    },
+    {
+        "merged": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-merged_res-36:/layout_fragment_mojjipfinish.xml.flat",
+        "source": "/Users/coconutree/.gradle/daemon/7.5/com.example.con_t.app-main-38:/layout/fragment_mojjipfinish.xml"
+    }
+]

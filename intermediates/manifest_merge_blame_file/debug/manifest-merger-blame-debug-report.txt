@@ -1,0 +1,324 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.con_t"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:25:5-67
+11-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:25:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:26:22-76
+13
+14    <uses-feature
+14-->[com.google.android.gms:play-services-maps:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/39329c6de69c1edf05a918e31d0b8c45/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+15        android:glEsVersion="0x00020000"
+15-->[com.google.android.gms:play-services-maps:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/39329c6de69c1edf05a918e31d0b8c45/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+16        android:required="true" />
+16-->[com.google.android.gms:play-services-maps:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/39329c6de69c1edf05a918e31d0b8c45/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+17
+18    <queries>
+18-->[com.google.android.gms:play-services-maps:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/39329c6de69c1edf05a918e31d0b8c45/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+19
+20        <!-- Needs to be explicitly declared on Android R+ -->
+21        <package android:name="com.google.android.apps.maps" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/39329c6de69c1edf05a918e31d0b8c45/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+21-->[com.google.android.gms:play-services-maps:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/39329c6de69c1edf05a918e31d0b8c45/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/0be9a2a3b739aa7efc293347798fbfd5/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:24:5-68
+24-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/0be9a2a3b739aa7efc293347798fbfd5/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:24:22-65
+25    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+25-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/0be9a2a3b739aa7efc293347798fbfd5/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:5-79
+25-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/0be9a2a3b739aa7efc293347798fbfd5/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:22-76
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:5-110
+26-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] /Users/coconutree/.gradle/caches/transforms-3/cdcdb1d1e4ef977e37138e7e99142a4b/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+29        android:name="com.example.con_t.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] /Users/coconutree/.gradle/caches/transforms-3/cdcdb1d1e4ef977e37138e7e99142a4b/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] /Users/coconutree/.gradle/caches/transforms-3/cdcdb1d1e4ef977e37138e7e99142a4b/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.example.con_t.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.9.0] /Users/coconutree/.gradle/caches/transforms-3/cdcdb1d1e4ef977e37138e7e99142a4b/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] /Users/coconutree/.gradle/caches/transforms-3/cdcdb1d1e4ef977e37138e7e99142a4b/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:5:5-37:19
+35        android:allowBackup="true"
+35-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:6:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] /Users/coconutree/.gradle/caches/transforms-3/cdcdb1d1e4ef977e37138e7e99142a4b/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:7:9-43
+40        android:label="@string/app_name"
+40-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:8:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:9:9-54
+42        android:supportsRtl="true"
+42-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:10:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.Cont" >
+44-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:11:9-42
+45        <meta-data
+45-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:14:9-16:71
+46            android:name="com.google.android.geo.API_KEY"
+46-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:15:13-58
+47            android:value="AIzaSyC2x6zDMP8AlLYl4xNqYq06DtVbIQD98L8" />
+47-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:16:13-68
+48
+49        <activity
+49-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:18:9-21:59
+50            android:name="com.example.con_t.Main_menu"
+50-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:19:13-38
+51            android:exported="false"
+51-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:20:13-37
+52            android:windowSoftInputMode="adjustNothing" />
+52-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:21:13-56
+53        <activity
+53-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:22:9-24:40
+54            android:name="com.example.con_t.MainpageActivity"
+54-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:23:13-45
+55            android:exported="false" />
+55-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:24:13-37
+56        <activity
+56-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:25:9-26:39
+57            android:name="com.example.con_t.JoinActivity"
+57-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:25:19-47
+58            android:exported="false" />
+58-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:26:13-37
+59        <activity
+59-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:27:9-35:20
+60            android:name="com.example.con_t.SignupActivity"
+60-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:28:13-43
+61            android:exported="true" >
+61-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:29:13-36
+62            <intent-filter>
+62-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:30:13-34:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:31:17-69
+63-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:31:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:33:17-77
+65-->/Users/coconutree/Desktop/cont/app/src/main/AndroidManifest.xml:33:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:29:9-46:20
+69            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+69-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:30:13-80
+70            android:excludeFromRecents="true"
+70-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:31:13-46
+71            android:exported="true"
+71-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:32:13-36
+72            android:launchMode="singleTask"
+72-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:33:13-44
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+73-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:34:13-72
+74            <intent-filter>
+74-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:35:13-45:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:17-69
+75-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:17-76
+77-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:27-73
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:17-78
+78-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:27-75
+79
+80                <data
+80-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:41:17-44:51
+81                    android:host="firebase.auth"
+81-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:42:21-49
+82                    android:path="/"
+82-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:43:21-37
+83                    android:scheme="genericidp" />
+83-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:44:21-48
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:47:9-64:20
+87            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+87-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:48:13-79
+88            android:excludeFromRecents="true"
+88-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:49:13-46
+89            android:exported="true"
+89-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:50:13-36
+90            android:launchMode="singleTask"
+90-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:51:13-44
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+91-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:52:13-72
+92            <intent-filter>
+92-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:53:13-63:29
+93                <action android:name="android.intent.action.VIEW" />
+93-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:17-69
+93-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:25-66
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:17-76
+95-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:27-73
+96                <category android:name="android.intent.category.BROWSABLE" />
+96-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:17-78
+96-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:27-75
+97
+98                <data
+98-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:41:17-44:51
+99                    android:host="firebase.auth"
+99-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:42:21-49
+100                    android:path="/"
+100-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:43:21-37
+101                    android:scheme="recaptcha" />
+101-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:44:21-48
+102            </intent-filter>
+103        </activity>
+104
+105        <service
+105-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:66:9-72:19
+106            android:name="com.google.firebase.components.ComponentDiscoveryService"
+106-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:67:13-84
+107            android:directBootAware="true"
+107-->[com.google.firebase:firebase-common:20.3.3] /Users/coconutree/.gradle/caches/transforms-3/94cece08c8d2de6d0509bdd930ca462c/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+108            android:exported="false" >
+108-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:68:13-37
+109            <meta-data
+109-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:69:13-71:85
+110                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+110-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:70:17-109
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-auth:22.1.1] /Users/coconutree/.gradle/caches/transforms-3/272f00a8c1341f010ba4bf1c6ba8a76c/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:71:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-analytics-ktx:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/6d254909eaeba9be4a3b4e0c11311c51/transformed/jetified-firebase-analytics-ktx-21.3.0/AndroidManifest.xml:11:13-13:85
+113                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+113-->[com.google.firebase:firebase-analytics-ktx:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/6d254909eaeba9be4a3b4e0c11311c51/transformed/jetified-firebase-analytics-ktx-21.3.0/AndroidManifest.xml:12:17-126
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-analytics-ktx:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/6d254909eaeba9be4a3b4e0c11311c51/transformed/jetified-firebase-analytics-ktx-21.3.0/AndroidManifest.xml:13:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/coconutree/.gradle/caches/transforms-3/256157a21cad009fc35e792260fe255a/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:14:13-16:85
+116                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+116-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/coconutree/.gradle/caches/transforms-3/256157a21cad009fc35e792260fe255a/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:15:17-113
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/coconutree/.gradle/caches/transforms-3/256157a21cad009fc35e792260fe255a/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:16:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-database:20.2.2] /Users/coconutree/.gradle/caches/transforms-3/2aac03a364fc97bc7793468819d476b4/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
+119                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+119-->[com.google.firebase:firebase-database:20.2.2] /Users/coconutree/.gradle/caches/transforms-3/2aac03a364fc97bc7793468819d476b4/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:32:17-109
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-database:20.2.2] /Users/coconutree/.gradle/caches/transforms-3/2aac03a364fc97bc7793468819d476b4/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:33:17-82
+121            <meta-data
+121-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/0be9a2a3b739aa7efc293347798fbfd5/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
+122                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+122-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/0be9a2a3b739aa7efc293347798fbfd5/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/0be9a2a3b739aa7efc293347798fbfd5/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-installations:17.1.4] /Users/coconutree/.gradle/caches/transforms-3/9f407ff1cc95c524e1c79237512e0ef4/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:15:13-17:85
+125                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+125-->[com.google.firebase:firebase-installations:17.1.4] /Users/coconutree/.gradle/caches/transforms-3/9f407ff1cc95c524e1c79237512e0ef4/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:16:17-127
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-installations:17.1.4] /Users/coconutree/.gradle/caches/transforms-3/9f407ff1cc95c524e1c79237512e0ef4/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:17:17-82
+127        </service> <!-- Needs to be explicitly declared on P+ -->
+128        <uses-library
+128-->[com.google.android.gms:play-services-maps:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/39329c6de69c1edf05a918e31d0b8c45/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+129            android:name="org.apache.http.legacy"
+129-->[com.google.android.gms:play-services-maps:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/39329c6de69c1edf05a918e31d0b8c45/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+130            android:required="false" />
+130-->[com.google.android.gms:play-services-maps:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/39329c6de69c1edf05a918e31d0b8c45/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+131
+132        <activity
+132-->[com.google.android.gms:play-services-base:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/bf76160f36c2310aefc5d51f5641f556/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+133-->[com.google.android.gms:play-services-base:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/bf76160f36c2310aefc5d51f5641f556/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-base:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/bf76160f36c2310aefc5d51f5641f556/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.android.gms:play-services-base:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/bf76160f36c2310aefc5d51f5641f556/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+136
+137        <provider
+137-->[com.google.firebase:firebase-common:20.3.3] /Users/coconutree/.gradle/caches/transforms-3/94cece08c8d2de6d0509bdd930ca462c/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+138            android:name="com.google.firebase.provider.FirebaseInitProvider"
+138-->[com.google.firebase:firebase-common:20.3.3] /Users/coconutree/.gradle/caches/transforms-3/94cece08c8d2de6d0509bdd930ca462c/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+139            android:authorities="com.example.con_t.firebaseinitprovider"
+139-->[com.google.firebase:firebase-common:20.3.3] /Users/coconutree/.gradle/caches/transforms-3/94cece08c8d2de6d0509bdd930ca462c/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-common:20.3.3] /Users/coconutree/.gradle/caches/transforms-3/94cece08c8d2de6d0509bdd930ca462c/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+141            android:exported="false"
+141-->[com.google.firebase:firebase-common:20.3.3] /Users/coconutree/.gradle/caches/transforms-3/94cece08c8d2de6d0509bdd930ca462c/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+142            android:initOrder="100" />
+142-->[com.google.firebase:firebase-common:20.3.3] /Users/coconutree/.gradle/caches/transforms-3/94cece08c8d2de6d0509bdd930ca462c/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+143
+144        <receiver
+144-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
+145            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+145-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
+146            android:enabled="true"
+146-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
+147            android:exported="false" >
+147-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
+148        </receiver>
+149
+150        <service
+150-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
+151            android:name="com.google.android.gms.measurement.AppMeasurementService"
+151-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
+152            android:enabled="true"
+152-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
+153            android:exported="false" />
+153-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
+154        <service
+154-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
+155            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+155-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
+156            android:enabled="true"
+156-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
+157            android:exported="false"
+157-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
+158            android:permission="android.permission.BIND_JOB_SERVICE" />
+158-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/coconutree/.gradle/caches/transforms-3/5823075bf0152a06ccf9ece1fd7cd396/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
+159
+160        <meta-data
+160-->[com.google.android.gms:play-services-basement:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/b3aa511d81a7735019e284eafd7b03ae/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+161            android:name="com.google.android.gms.version"
+161-->[com.google.android.gms:play-services-basement:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/b3aa511d81a7735019e284eafd7b03ae/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+162            android:value="@integer/google_play_services_version" />
+162-->[com.google.android.gms:play-services-basement:18.1.0] /Users/coconutree/.gradle/caches/transforms-3/b3aa511d81a7735019e284eafd7b03ae/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+163
+164        <provider
+164-->[androidx.emoji2:emoji2:1.2.0] /Users/coconutree/.gradle/caches/transforms-3/a28f0258c12915d1b11d1211c7123031/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+165            android:name="androidx.startup.InitializationProvider"
+165-->[androidx.emoji2:emoji2:1.2.0] /Users/coconutree/.gradle/caches/transforms-3/a28f0258c12915d1b11d1211c7123031/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+166            android:authorities="com.example.con_t.androidx-startup"
+166-->[androidx.emoji2:emoji2:1.2.0] /Users/coconutree/.gradle/caches/transforms-3/a28f0258c12915d1b11d1211c7123031/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+167            android:exported="false" >
+167-->[androidx.emoji2:emoji2:1.2.0] /Users/coconutree/.gradle/caches/transforms-3/a28f0258c12915d1b11d1211c7123031/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+168            <meta-data
+168-->[androidx.emoji2:emoji2:1.2.0] /Users/coconutree/.gradle/caches/transforms-3/a28f0258c12915d1b11d1211c7123031/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+169                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+169-->[androidx.emoji2:emoji2:1.2.0] /Users/coconutree/.gradle/caches/transforms-3/a28f0258c12915d1b11d1211c7123031/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+170                android:value="androidx.startup" />
+170-->[androidx.emoji2:emoji2:1.2.0] /Users/coconutree/.gradle/caches/transforms-3/a28f0258c12915d1b11d1211c7123031/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+171            <meta-data
+171-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/coconutree/.gradle/caches/transforms-3/7a41deb0cf02f1a8384e1056af680ce0/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+172                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+172-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/coconutree/.gradle/caches/transforms-3/7a41deb0cf02f1a8384e1056af680ce0/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+173                android:value="androidx.startup" />
+173-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/coconutree/.gradle/caches/transforms-3/7a41deb0cf02f1a8384e1056af680ce0/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+174        </provider>
+175    </application>
+176
+177</manifest>
